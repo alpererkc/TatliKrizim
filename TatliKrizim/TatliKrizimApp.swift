@@ -6,12 +6,24 @@
 //
 
 import SwiftUI
+import FirebaseCore
+import FirebaseAuth
 
 @main
 struct TatliKrizimApp: App {
+    @AppStorage("uid") var userID: String = ""
+
+    init(){
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if userID.isEmpty {
+                AuthView()
+            } else {
+                ContentView()
+            }
         }
     }
 }

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "CHIPS-AHOY-Original-Chocolate-Chip-Cookies-Family-Size-18-2-oz_8b1aaec1-1570-4ac7-b7fa-757f4bf13390.e54e301a21fd3a9fc2fd5f104217012d.jpeg-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
